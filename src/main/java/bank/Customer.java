@@ -55,4 +55,15 @@ public class Customer {
     this.accountId = accountId;
   }
 
+  @Override
+  public String toString() {
+    return "{" +
+        " id='" + getId() + "'" +
+        ", name='" + getName() + "'" +
+        ", userName='" + getUserName() + "'" +
+        ", password='" + getPassword() + "'" +
+        ", accountId='" + getAccountId() + "'" +
+        "}";
+  }
+
 }
